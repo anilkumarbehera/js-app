@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="./assets/css/bootstrap/bootstrap.min.css" rel="stylesheet">
+    
+</head>
+<!-- 
+// diff between getElement and queryselector
+// in querySelector you can query based on attribute, based in relation what ever you want
+// in queryselectorAll we can get the element based on relation also we can do  -->
+
+
+
+<body class="p-1">
+    
+       <div>
+       <div class="bg-dark">
+        <label>
+            <a href="./components/home/home.html" class="text-decoration-none text-light p-3" target="_container">Home</a>
+            <a href="./components/create-product/create-product.html" class="text-decoration-none text-light p-3" target="_container">Product</a>
+            <a href="./components/view-products/view-products.html" class="text-decoration-none text-light p-3" target="_container">View Products</a>
+            <a href="./components/contact/contact.html" class="text-decoration-none text-light p-3" target="_container">Contact</a>
+        </label>
+
+       </div>
+       <!-- 1. i frame: iframe is used to refer/load a html page in another html page 
+            2. iframe is used to build Multipage Applications
+            3 Target: where you want to load the page(that may be in iframe, in another browser)
+            4. _container is known as name of iframe
+       -->
+      <iframe src="./components/create-product/create-product.html" width="100%" style="height: 100vh" name="_container"></iframe>
+       </div>
+
+        
+    
+</body>
+
+</html>

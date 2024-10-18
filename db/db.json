@@ -1,0 +1,19 @@
+{
+  "products": [
+    {
+      "id": "1b81",
+      "name": "Asus",
+      "price": "48000",
+      "productType": "Laptop",
+      "description": "laptop"
+    },
+    {
+      "id": "8ebb",
+      "name": "Dell",
+      "price": "60000",
+      "productType": "Laptop",
+      "description": "test"
+    }
+  ],
+  "users": []
+}
